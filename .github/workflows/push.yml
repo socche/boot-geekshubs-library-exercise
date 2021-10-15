@@ -4,13 +4,8 @@ on:
     branches:
       - main
   pull_request:
-  
-  build:
-    name: Pull Request
-    runs-on: ubuntu-latest
-    steps:    
-
-  jobs:
+    
+jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
