@@ -6,12 +6,6 @@ on:
   pull_request:
     
 jobs:
-
-  build:
-    name: Pull Request
-    runs-on: ubuntu-latest
-    steps:
-
   lint:
     name: Lint
     runs-on: ubuntu-latest
